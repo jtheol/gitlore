@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "gitlore"
+
+Gitlore::summarize_git
