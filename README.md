@@ -18,7 +18,15 @@ gem install gitlore
 
 ## Usage
 
-Navigate to a git repository and run gitlore in that directory. 
+Navigate to a git repository and run gitlore in that directory. To use models from OpenAI, make sure to first set your api key.
+
+```
+export OPENAI_API_KEY=...
+```
+
+```
+gitlore
+```
 
 ## Development
 
